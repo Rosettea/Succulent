@@ -1,5 +1,6 @@
 # Succulent
 > 🌿 Lua functions and utilities specifically for Hilbish.
+
 Succulent is a small and simple pure Lua library which adds extra useful functions
 to the standard library. Succulent is made for [Hilbish](https://github.com/Rosettea/Hilbish) specifically.
 
