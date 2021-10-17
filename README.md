@@ -12,6 +12,10 @@ and all functions will be added.
 #### string
 `split(str, delim)` > Divides a string into a table of substrings separated by `delim`.
 
+#### table
+`filter(t, fn)` > Returns a table with all elements of `t` that pass the filter provided by `fn`.  
+`map(t, fn)` > Returns a new table with the results of calling `fn` on the elements in `t`.
+
 # License
 MIT
 
