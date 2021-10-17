@@ -6,12 +6,12 @@ string.split = function(str, delimiter)
 	local delimFrom, delimTo = string.find(str, delimiter, from)
 
 	while delimFrom do
-		table.insert(result, string.sub(str, from, delimFrom - 1))
+		table.insert(res, string.sub(str, from, delimFrom - 1))
 		from = delimTo + 1
 		delimFrom, delimTo = string.find(str, delimiter, from)
 	end
 
-	table.insert(result, string.sub(str, from))
+	table.insert(res, string.sub(str, from))
 
 	return res
 end
