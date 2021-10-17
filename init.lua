@@ -33,5 +33,7 @@ table.map = function(t, fn)
 	for k, v in pairs(t) do
 		table.insert(res, fn(v, k, t))
 	end
+
+	return res
 end
 
