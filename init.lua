@@ -1,3 +1,5 @@
+local version = 'v0.1.0'
+
 -- string functions
 string.split = function(str, delimiter)
 	local res = {}
@@ -37,3 +39,4 @@ table.map = function(t, fn)
 	return res
 end
 
+return version
